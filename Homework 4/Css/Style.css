@@ -62,7 +62,9 @@ body{
     text-decoration: underline;
 }
 .img_block{
-    margin-bottom: -6px;
+	border-top: 1px solid #7bb3c4;
+	border-bottom: 1px solid #7bb3c4;
+    margin-bottom: -3px;
 }
 /*--Horizontal Menu--*/
 .menu{
