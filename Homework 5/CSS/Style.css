@@ -1,0 +1,132 @@
+h2{
+	font-weight: 100;
+}
+body{
+	font-family: Helvetica ,Tahoma, serif;
+	background-color: white;
+	color: #c3c3c3;
+}
+/*--Header--*/
+header{
+	font-size: 14px;
+	color: #60b5ed;
+	margin: 0 auto;
+	width: 1000px;
+	height: 36px;
+	background-image: url(../IMG/Header-BG.jpg);
+	background-repeat: repeat-x;
+}
+header img{
+	float: right;
+	padding-left: 7px;
+}
+.button2{
+	float: right;
+	line-height: 36px;
+    white-space: nowrap;
+	padding: 0 7px;
+}
+.button1{
+	border-left: 1px solid #54a1db;
+	border-right: 1px solid #54a1db;
+	background: linear-gradient(to top, #2e7ac4, #50afdc);
+	float: right;
+	height: 36px;
+	line-height: 36px;
+    white-space: nowrap;
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+	margin: 0 15px;
+}
+.head_menu a{
+	color: #60b5ed;
+	text-decoration: none;
+}
+
+.head_menu li{
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 36px;
+    white-space: nowrap;
+	float: right;
+	display: block;
+}
+.head_menu li:hover{
+	color: white;
+	background-color: #60b5ed;
+}
+.head_menu a:hover{
+	color: white;
+}
+.head_menu li:first-child{
+	border-right: 1px solid #60b5ed;
+}
+/*--Main--*/
+.wrapper {
+	background: url(../IMG/background.jpg) no-repeat;
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.center{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.top{
+	color: white;
+	text-align: center;
+	width: 550px;
+	height: 60px;
+	line-height: 60px;
+    white-space: nowrap;
+	background-color: rgba(0,0,0,0.85);
+	margin-bottom: 3px;
+}
+/*--Centered content--*/
+.content {
+	padding-top: 15px;
+	width: 550px;
+	
+	text-align: center;
+	background-color: rgba(0,0,0,0.85);
+}
+.content img{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+form{
+	text-align: left;
+	margin: 0 auto;
+	width: 275px;
+	padding-bottom: 10px;
+}
+input{
+	margin-top: 20px;
+	margin-left: -3px;
+}
+.type{
+	padding-left: 10px;
+	background-color: #0f0f0f;
+	border: transparent;
+	border-bottom: 1px solid gray;
+	width: 270px;
+	height: 35px;
+}
+.type:hover{
+	width: 271px;
+	height: 36px;
+	box-shadow: 0px 0px 13px 2px rgba(61,133,199,1);
+	border: transparent;
+	background-color: #3c85c6;
+	
+}
+.terms{
+	margin: 0 auto;
+	width: 310px;
+	font-size: x-small;
+	padding-bottom: 20px;
+}
