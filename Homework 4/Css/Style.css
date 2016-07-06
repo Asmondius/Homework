@@ -114,15 +114,19 @@ ul.menu > li:hover > ul.submenu {
     display: block;
 }
 /*--MAIN BLOCK--*/
-
+.main{
+    overflow: hidden;
+    min-height: 550px;
+}
 /*--Side menu--*/
 .side_m{
     text-align: center;
     float: left;
     background-color: #edeef0;
-    height: 545px;
     width: 210px;
     color: #4e4e4e;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
 }
 .side_m p{
     line-height: 1.5;
@@ -132,16 +136,19 @@ ul.menu > li:hover > ul.submenu {
 .content{
     float: left;
     width: 580px;
-    height: 545px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
 }
 /*--News--*/
 .news{
     text-align: center;
-    float: left;
+    float: right;
     background-color: #edeef0;
     width: 210px;
-    height: 545px;
     color: #4e4e4e;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+
 }
 .news p {
     line-height: 1.5;

@@ -22,7 +22,7 @@ body{
     font-size: medium;
     margin: 35px 5% 40px 5%;
     height: 40px;
-    background-image: url(../Img/panel.jpg);
+    background: linear-gradient(to top, #444243, #5e5e5e);
    }
 .Top_menu li{
     line-height: 40px;
@@ -34,6 +34,7 @@ body{
 .Top_menu li:hover{
     background: #3c3c3c;
     border-style: solid;
+    width: 108px;
     border-width: 0px 1px 0px 1px;
     border-color: white;
     /*opacity: 0%;*/
