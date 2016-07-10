@@ -12,7 +12,7 @@ header{
 	margin: 0 auto;
 	width: auto;
 	height: 36px;
-	background-image: url(../IMG/Header-BG.jpg);
+	background-image: url(../img/Header-BG.jpg);
 	background-repeat: repeat-x;
 }
 header img{
@@ -93,7 +93,7 @@ header img{
 	clear: both;
 }
 .wrapper {
-	background: url(../IMG/background.jpg) no-repeat center center;
+	background: url(../img/background.jpg) no-repeat center center;
 	height: 100vh;
 	background-size: cover;
 	position: relative;
