@@ -338,16 +338,14 @@ body{
     height: 626px;
 }
 .product{
-
     text-align: center;
     margin: 16px 5px 5px 22px;
-    /*font-size: 16px;
-    font-weight: bold;*/
     display: block;
     float: left;
     width: 140px;
 }
 .product p{
+    font-weight: bold;
     color: #33718e;
     font-size: 15px;
 }
