@@ -1,0 +1,374 @@
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper{
+    font-family: open_sans ,Tahoma, serif;
+    width: 100%;
+    height: auto;
+}
+header{
+    height: 847px;
+    width: 100%;
+    background: url(../img/header.jpg) 100% 100% no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.head__text{
+    font-size: 0;
+}
+.head__center{
+    max-width: 960px;
+    margin: 0 auto;
+    height: 278px;
+    font-size: 0;
+}
+.head__img{
+    padding-top: 7%;
+    padding-left: 2%;
+}
+.head__menu{
+    display: flex;
+    width: 80%;
+    padding-top: 76px;
+    margin-right: -9%;
+    float: right;
+}
+.menu__item:first-child {
+    margin: 0;
+}
+.menu__item{
+    flex-direction: row-reverse;
+    display: block;
+    float: right;
+    margin-left: 6%;
+}
+.menu__item:last-child{
+    float: right;
+    margin-left: 50px;
+}
+.menu__link{
+    font-family: league_gothic ,Tahoma, serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.menu__link:hover{
+    border-bottom: solid 1px #edbfff;
+}
+.head__line{
+    height: 400px;
+    background: rgba(0,0,0,.2);
+}
+.head__phone{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.phone__textbox{
+    margin-left: 2%;
+    margin-top: 77px;
+    width: 55%;
+    display: block;
+    float: left;
+}
+.phone__img{
+    float: right;
+    margin-right: 6%;
+    margin-top: -15px;
+
+}
+.phone__bigger-text{
+    font-family: league_gothic ,Tahoma, serif;
+    font-size: 60px;
+    color: white;
+}
+.phone__big-text{
+    font-family: league_gothic ,Tahoma, serif;
+    font-size: 32px;
+    color: #edbfff;
+}
+.phone__text{
+    margin-top: 7px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: white;
+}
+.about{
+    height: 342px;
+    width: 100%;
+    background: linear-gradient(to top, #33253a, #745083);
+
+}
+.about__box{
+    max-width: 960px;
+    padding-left: 7%;
+    padding-top: 2%;
+    margin: 0 auto;
+}
+.about__textbox{
+    float: left;
+    width: 25%;
+    position: relative;
+    margin: 4% 4% 0 4%;
+    line-height: 1.3;
+}
+.about__text-h{
+    width: 100%;
+    font-family: league_gothic ,Tahoma, serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: block;
+    color: white;
+}
+.about__text{
+    font-size: 16px;
+    display: block;
+    color: white;
+}
+.about__readmore{
+    float: right;
+    height: 18px;
+    width: 59px;
+    margin-top: 31px;
+    margin-right: 18px;
+    background-image: url("../img/readmore.png");
+    background-position: -61px;
+}
+.about__readmore:hover{
+    height: 18px;
+    width: 59px;
+    background-image: url("../img/readmore.png");
+    background-position: 0;
+}
+.about__link{
+
+}
+.tool{
+    position: absolute;
+    left: -50px;
+    top: 8px;
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/sprite.png");
+    background-position: -52px;
+}
+.cloud{
+    position: absolute;
+    left: -50px;
+    top: 8px;
+    float: left;
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/sprite.png");
+    background-position: -26px;
+}
+.music{
+    position: absolute;
+    left: -50px;
+    top: 8px;
+    float: left;
+    height: 25px;
+    width: 25px;
+    background-image: url("../img/sprite.png");
+}
+.content{
+    height: 607px;
+    width: 100%;
+    background-color: #f9f9f9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__center{
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.content__bottom{
+    height: 120px;
+    border-top: solid 1px #d8d8d8;
+    border-bottom: solid 1px #d8d8d8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.content__img{
+    padding-top: 28px;
+    float: left;
+    padding-right: 2%;
+    padding-left: 3%;
+}
+.quote{
+    margin-top: -84px;
+    display: block;
+    float: left;
+    width: 427px;
+    height: 292px;
+    position: relative;
+    background: url("../img/quote.png");
+}
+.quote__img{
+    position: absolute;
+    left: -25px;
+    top: 15px;
+}
+.content__bigtext{
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 1%;
+    float: left;
+    display: block;
+    font-family: league_gothic ,Tahoma, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.content__bigtext-pink{
+
+    padding-top: 5%;
+    font-family: league_gothic ,Tahoma, serif;
+    text-transform: uppercase;
+    vertical-align: top;
+    display: block;
+    font-size: 30px;
+    color: #edbfff;
+}
+.content__text{
+    padding-top: 4%;
+    padding-right: 6%;
+    padding-left: 6%;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.recent{
+    margin-top: -90px;
+    display: block;
+    float: right;
+    width: 45%;
+    position: relative;
+}
+.recent__list{
+    margin-top: 12px;
+    margin-left: 60px;
+}
+.recent__head{
+    font-family: league_gothic ,Tahoma, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.recent__text-bold{
+
+}
+.recent__avatar{
+    position: absolute;
+    left: -3px;
+}
+.recent__item {
+    padding-top: 10px;
+}
+.recent__text-bold{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.recent__text{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.recent__link{
+    font-family: league_gothic ,Tahoma, serif;
+    text-transform: uppercase;
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.footer{
+
+}
+.foot__top{
+    background-color: #ececec;
+    height: 395px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top__center{
+    max-width: 960px;
+    font-size: 0;
+}
+.foot__textbox{
+    float: left;
+    width: 28%;
+    margin: 0 5% 1% 0;
+}
+.textbox__img{
+    margin-bottom: 20px;
+}
+.textbox__italic{
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 15px;
+}
+.textbox__bigtext{
+    font-family: league_gothic ,Tahoma, serif;
+    font-size: 30px;
+    color: #454545;
+    margin-bottom: 17px;
+}
+.textbox__text{
+    font-size: 16px;
+    color: #454545;
+}
+.foot__bottom{
+    height: 115px;
+    width: 100%;
+    line-height: 115px;
+    white-space: nowrap;
+    background: url(../img/footer.jpg)100% 100% no-repeat;
+    background-size: cover;
+}
+.bottom__center{
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.foot__link{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: league_gothic ,Tahoma, serif;
+    text-decoration: none;
+    color: white;
+}
+.foot__link:hover{
+    color: #edbfff;
+    text-decoration: underline;
+}
+.foot__item {
+    display: block;
+    float: left;
+    margin-right: 44px;
+}
+.foot__copyright{
+    font-size: 12px;
+    display: block;
+    float: right;
+    color: white;
+}
+.foot__bold{
+    margin-left: 2px;
+    font-size: 12px;
+    display: block;
+    float: right;
+    color: white;
+    font-weight: bold;
+}
