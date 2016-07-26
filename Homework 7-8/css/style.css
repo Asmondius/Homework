@@ -30,11 +30,11 @@ header{
     padding-top: 7%;
     padding-left: 2%;
 }
-.head__menu{
+.head__menu {
     display: flex;
-    width: 80%;
+    width: 65%;
     padding-top: 76px;
-    margin-right: -9%;
+    margin-right: 0%;
     float: right;
 }
 .menu__item:first-child {
