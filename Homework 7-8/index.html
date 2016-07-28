@@ -4,18 +4,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>HW# 7-8</title>
-    <!--[if (IE 7)|(IE 8)]>
-    <link rel="stylesheet" href="css/ie.css">
-    <![endif]-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/media-queries.css">
+    <![if IE]-->
+    <link rel="stylesheet" href="css/ie10.css">
+    <![endif]-->
+    <!--[if (IE 7) | (IE 8) ]>
+    <link rel="stylesheet" href="css/ie8.css">
+    <![endif]-->
+    <!--[if (IE 9)]>
+    <link rel="stylesheet" href="css/ie9.css">
+    <![endif]-->
 </head>
 <body>
     <div class="wrapper">
 
-        <header>
+        <div class="header">
             <div class="head__center">
             <img class="head__img clearfix" src="img/logo.png">
             <ul class="head__menu">
@@ -52,8 +58,8 @@
                         <img class="phone__img" src="img/iphone.png">
                     </div>
                 </div>
-        </header>
-        <main>
+        </div>
+        <div class="main">
             <div class="about">
                 <div class="about__box">
                 <div class="about__textbox">
@@ -127,6 +133,7 @@
                </div>
                 <div class="content__bottom">
                     <div class="content__center">
+                        <div class="img__center">
                     <img class="content__img" src="img/brands1.png">
                     <img class="content__img" src="img/brands2.png">
                     <img class="content__img" src="img/brands3.png">
@@ -134,12 +141,11 @@
                         <img class="content__img" src="img/brands5.png">
                         <img class="content__img" src="img/brands6.png">
                 </div>
+                        </div>
                 </div>
             </div>
-
-        </main>
-
-        <footer>
+        </div>
+        <div class="footer">
             <div class="foot__top">
                 <div class="top__center">
                     <div class="foot__textbox">
@@ -201,7 +207,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
     </div>
 </body>
 </html>

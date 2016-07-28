@@ -1,0 +1,60 @@
+
+.head__menu {
+    width: 80%;
+}
+.menu__item:first-child {
+    margin: 0;
+}
+.menu__item{
+    margin-left: 2%;
+}
+.menu__item:first-child{
+    margin-left: 2%;
+}
+.menu__link{
+    font-size: 18px;
+}
+.phone__bigger-text{
+    font-size: 55px;
+}
+.phone__big-text{
+    font-size: 30px;
+}
+.phone__text{
+    font-size: 16px;
+}
+.about{
+    background: #33253a;
+}
+.content__center{
+    margin: 0 auto;
+}
+.quote{
+    margin-top: 5%;
+}
+.recent{
+    margin-top: 5%;
+}
+.recent__link{
+    font-family: league_gothic ,Tahoma, serif;
+    text-transform: uppercase;
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.top__center{
+    margin: 0 auto;
+}
+.foot__textbox{
+    margin: 5% 5% 1% 0;
+}
+.foot__bottom{
+    background: url(../img/footer.jpg) 100% 100% no-repeat;
+}
+.bottom__center{
+    margin: 0 auto;
+}
+.foot__link {
+    font-size: 16px;
+}

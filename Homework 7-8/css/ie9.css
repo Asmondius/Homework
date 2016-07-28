@@ -1,0 +1,53 @@
+
+.head__menu {
+    width: 75%;
+    margin-right: 5%;
+}
+.menu__item:first-child {
+    margin: 0;
+}
+.menu__item{
+    margin-left: 3%;
+}
+.menu__item:last-child{
+    float: right;
+}
+.menu__item:first-child{
+    margin-left: 3%;
+}
+.about{
+    background: #33253a;
+}
+.quote{
+    margin-top: 5%;
+    display: block;
+    float: left;
+    width: 427px;
+    height: 292px;
+    position: relative;
+    background: url("../img/quote.png");
+}
+.recent{
+    margin-top: 5%;
+    display: block;
+    float: right;
+    width: 45%;
+    position: relative;
+}
+.recent{
+    margin-top: 5%;
+    display: block;
+    float: right;
+    width: 45%;
+    position: relative;
+}
+.top__center{
+    margin: 0 auto;
+}
+.foot__textbox{
+    margin-top: 8%;
+}
+.img__center{
+    margin: 0 auto;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/

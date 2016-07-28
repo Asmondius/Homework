@@ -1,0 +1,12 @@
+.content__center{
+	margin: 0;
+}
+.img__center{
+	display: flex;
+	justify-content: center;
+}
+.content__bottom{
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}

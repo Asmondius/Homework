@@ -9,7 +9,7 @@
     width: 100%;
     height: auto;
 }
-header{
+.header{
     height: 847px;
     width: 100%;
     background: url(../img/header.jpg) 100% 100% no-repeat;
@@ -196,6 +196,10 @@ header{
     bottom: 0;
     left: 0;
     right: 0;
+}
+.img__center{
+    /*display: flex;
+    justify-content: center;*/
 }
 .content__img{
     padding-top: 28px;
